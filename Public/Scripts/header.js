@@ -8,7 +8,7 @@ export function loadHeader() {
                 <a href="/" data-page="home">Home</a>
             </nav>
             <div class="rightheader">
-                <a href="/#/contactus" data-page="contactus"><img src="../images/phone.png" alt="Phone Icon" class="rightheaderphone">Contact us</a>
+                <a href="/#/contactus" data-page="contactus"><img src="../Images/Phone.png" alt="Phone Icon" class="rightheaderphone">Contact us</a>
             </div>
             <a href="/#/submission" data-page="submission" class="headergetstarted">Get Started</a>
         </header>`
