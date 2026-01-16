@@ -1,0 +1,244 @@
+/*Styling for homepage*/
+
+#AffordableContent{
+    position: relative;
+    align-content: center;
+    transition: background-image 1s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../Images/MainBackground2.webp');
+    height: 100%;
+    width: 100%;
+    min-height: 900px;
+}
+
+#AffordableContent #LargePara{
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 20%;
+    margin-top: 11%;
+    margin-right: 50%;
+    margin-bottom: 0%; 
+}
+
+#PurpleText{
+    color: purple;
+}
+
+#AffordableContent #SmallPara{
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-bottom: 0%;
+}
+
+#AffordableContent #GetStartedAffordable{
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-decoration: none;
+    background-color: rgb(160, 0, 160);
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+#AffordableContent #IconContainer {
+    margin-top: 0%;
+    margin-left: 20%;
+    margin-right: 50%;
+}
+
+#AffordableContent .CreditIcon{
+    height: 40px;
+}
+
+#AffordableContent #ButtonBox{
+    font-size: 60px;
+}
+
+#PaymentSteps {
+    width: 100%;
+    padding-top: 150px;
+    position: relative;
+    min-height: 800px;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(to right, white, rgb(255, 220, 255));
+}
+
+#PaymentSteps #PaymentStepsTitle {
+    margin-top: 0;
+    margin-right: 35%;
+    margin-left: 35%;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#PaymentSteps #StepNumber {
+    height: 100px;
+}
+
+#PaymentSteps #StepsContainer {
+    text-align: left;
+    margin-top: 100px;
+    display: flex; 
+    gap: 100px;
+    justify-content: center;
+}
+
+#PaymentSteps .StepsBox {
+    min-width: 20vh;
+    max-width: 20vh;
+    align-content: right;
+    font-size: 20px;
+}
+
+#PaymentSteps #StepPicture {
+    height: 200px;
+}
+
+#InPersonPayments {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    min-height: 800px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#InPersonPaymentsTitle {
+    margin-right: 32%;
+    margin-left: 32%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#InPersonPayments #InPersonSideBySide {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 22%;
+    margin-top: 50px;
+    display: flex; 
+    gap: 175px;
+    justify-content: center;
+}
+
+
+#InPersonPayments #InPersonSideBySide #InPersonLink {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+#InPersonPayments #InPersonSideBySide #InPersonBox #InPersonPaymentsTitle {
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    padding-top: 50px;
+}
+
+#GetMoneyFast {
+    padding-top: 150px;
+    position: relative;
+    min-height: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(255, 207, 253), rgb(255, 231, 231));
+    min-width: 100%;
+    max-width: 100vh;
+}
+
+#GetMoneyFast #GetMoneyFastWhiteBox {
+    background: white;
+    border-radius: 25px;
+    min-width: 0%;
+    max-width: 60%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    max-height: 500px;
+    display: flex;
+}
+
+#GetMoneyFast #GetMoneyFastWhiteBox #GetMoneyFastBox #GetMoneyFastPicture {
+    height: 500px;
+}
+
+#GetMoneyFast #GetMoneyFastWhiteBox #GetMoneyFastBox {
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    text-align: left;
+}
+
+#GetMoneyFast #GetMoneyFastTitle {
+    margin-top: 35%;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#ProductOptions {
+    padding-top: 150px;
+    position: relative;
+    min-height: 800px;
+}
+
+#ProductOptions #OptionRows {
+    display: flex;
+    padding-top: 150px;
+    position: relative;
+    min-height: 800px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    min-width: 100%;
+    gap: 100px;
+    max-width: 100vh;
+    flex-wrap: wrap;
+}
+
+#ProductOptions #ProductOptionsTitle {
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+    
+}
+
+#ProductOptions .Option {
+    min-width: 300px;
+    min-height: 400px;
+    max-height: 400px;
+    max-width: 300px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(to right, rgb(255, 217, 254), rgb(255, 205, 205));
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+}
+
+#ProductOptions .Option .OptionTitle {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10;
+}
+
+#ProductOptions .Option .OptionImage {
+    height: 100px;
+}
+
+.ProductOptionsHREF {
+    text-decoration: none;
+    color: black;
+}
+
+.ProductOptionsHREF:hover .Option {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2)
+}

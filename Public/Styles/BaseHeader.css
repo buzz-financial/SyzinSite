@@ -1,0 +1,72 @@
+#baseheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.75s, box-shadow 0.75s;
+    padding: 2.3% 0% ;
+    z-index: 1000;
+    
+}
+
+
+#baseheader.scrolled{
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+#baseheader .headericon {
+    position: fixed;
+    left: 10%;
+    height: 150px;
+}
+
+#baseheader .headerlinks{
+    position: fixed;
+    top: 2.5%;
+    display: flex;
+    gap: 35px;
+}
+
+#baseheader .headerlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#baseheader .rightheader {
+    position: fixed;
+    right: 20%;
+    display: flex;
+    gap: 15px
+}
+
+#baseheader .rightheader .rightheaderphone {
+    vertical-align: middle;
+    height: 25px
+}
+
+#baseheader .rightheader a{
+    top: 10%;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+#baseheader .headergetstarted {
+/*#815af0 Color code for button */
+    position: fixed;
+    text-decoration: none;
+    right: 12%;
+    display: flex;
+    background-color: #815af0;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+

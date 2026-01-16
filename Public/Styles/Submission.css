@@ -1,0 +1,47 @@
+/*Styling for email submission*/
+#contact-form {
+    padding:20px;
+    max-width: 50%;
+    border:1px solid #ccc;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    margin: 100px auto;
+    border-radius:25px;
+    background-color: rgb(239, 227, 250);
+}
+#ContactBackground {
+    position: relative;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../Images/MainBackground2.webp');
+    height: 100%;
+    width: 100%;
+    min-height: 900px;
+}
+#contact-form #FormTitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+#contact-form #testForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+#contact-form #testForm input {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    min-width: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 235, 238);
+}
+
+#contact-form #testForm textarea{
+    min-width: 100%;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 235, 238);
+}

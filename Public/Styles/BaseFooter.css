@@ -1,0 +1,25 @@
+#BaseFooter {
+    background: linear-gradient(to right, rgb(231, 229, 255), rgb(255, 231, 231));
+    min-height: 100px;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 20px;
+    margin-top: 3%;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60%;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+#BaseFooter #RightSideFooter {
+    margin-top: 30px;
+    text-decoration: none;
+    gap: 30px;
+    display: flex;
+}
+
+#BaseFooter .SocialIcon {
+    height: 30px;
+}
