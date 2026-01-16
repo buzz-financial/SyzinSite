@@ -88,11 +88,13 @@
     display: flex; 
     gap: 100px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #PaymentSteps .StepsBox {
     min-width: 20vh;
     max-width: 20vh;
+    min-height: 30vh;
     align-content: right;
     font-size: 20px;
 }
@@ -123,8 +125,8 @@
     margin-right: 22%;
     margin-top: 50px;
     display: flex; 
-    gap: 175px;
     justify-content: center;
+    gap: 10%;
 }
 
 
@@ -140,6 +142,14 @@
     padding-top: 50px;
 }
 
+
+@media (max-width: 900px) {
+    #InPersonPaymentImage,
+    #PaymentImage {
+        display: none;
+    }
+}
+
 #GetMoneyFast {
     padding-top: 150px;
     position: relative;
@@ -150,7 +160,6 @@
     font-size: 20px;
     background: linear-gradient(to right, rgb(255, 207, 253), rgb(255, 231, 231));
     min-width: 100%;
-    max-width: 100vh;
 }
 
 #GetMoneyFast #GetMoneyFastWhiteBox {
@@ -164,7 +173,13 @@
 }
 
 #GetMoneyFast #GetMoneyFastWhiteBox #GetMoneyFastBox #GetMoneyFastPicture {
-    height: 500px;
+    height: 500px;  
+}
+
+@media (max-width: 1000px) {
+  #GetMoneyFastPicture {
+    display: none;
+  }
 }
 
 #GetMoneyFast #GetMoneyFastWhiteBox #GetMoneyFastBox {
@@ -197,7 +212,6 @@
     font-size: 20px;
     min-width: 100%;
     gap: 100px;
-    max-width: 100vh;
     flex-wrap: wrap;
 }
 
