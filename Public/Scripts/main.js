@@ -40,7 +40,7 @@ let submission = null;
 let submissionPromise = null;
 function loadHomepage() {
   if (!homepagePromise) {
-    homepagePromise = fetch('/pages/AffordableCredit.html')
+    homepagePromise = fetch('/Pages/AffordableCredit.html')
       .then(r => r.text())
       .then(html => {
         homepage = html;
@@ -51,7 +51,7 @@ function loadHomepage() {
 }
 function loadSubmission() {
   if (!submissionPromise) {
-    submissionPromise = fetch('/pages/Submission.html')
+    submissionPromise = fetch('/Pages/Submission.html')
       .then(r => r.text())
       .then(html => (submission = html));
   }
@@ -59,7 +59,7 @@ function loadSubmission() {
 }
 function loadContactUs() {
   if (!contactusPromise) {
-    contactusPromise = fetch('/pages/ContactUs.html')
+    contactusPromise = fetch('/Pages/ContactUs.html')
       .then(r => r.text())
       .then(html => (contactus = html));
   }

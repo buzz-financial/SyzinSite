@@ -3,7 +3,7 @@
 export function loadHeader() {
     const headerHTML = `
         <header id="baseheader">
-            <img src="../images/Icon.png" alt="Logo" class="headericon">
+            <img src="../Images/Icon.png" alt="Logo" class="headericon">
             <nav class="headerlinks">
                 <a href="/" data-page="home">Home</a>
             </nav>
