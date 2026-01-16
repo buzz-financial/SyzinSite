@@ -66,6 +66,7 @@ function loadContactUs() {
   return contactusPromise;
 }
 async function render(page) {
+  window.scrollTo(0,0);
   const app = document.getElementById('app');
   console.log(app);
   if (page === 'contactus') {
