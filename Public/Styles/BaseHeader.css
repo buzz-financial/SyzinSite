@@ -5,11 +5,12 @@
     width: 100%;
     display: flex;
     align-items: center;
+    max-height: 3%;
     justify-content: center;
     transition: background-color 0.75s, box-shadow 0.75s;
     padding: 2.3% 0% ;
     z-index: 1000;
-    
+    gap: 20%;
 }
 
 
@@ -19,13 +20,10 @@
 }
 
 #baseheader .headericon {
-    position: fixed;
-    left: 10%;
     height: 150px;
 }
 
 #baseheader .headerlinks{
-    position: fixed;
     top: 2.5%;
     display: flex;
     gap: 35px;
@@ -39,7 +37,6 @@
 }
 
 #baseheader .rightheader {
-    position: fixed;
     right: 20%;
     display: flex;
     gap: 15px
@@ -59,7 +56,6 @@
 
 #baseheader .headergetstarted {
 /*#815af0 Color code for button */
-    position: fixed;
     text-decoration: none;
     right: 12%;
     display: flex;

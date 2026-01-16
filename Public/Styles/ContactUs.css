@@ -10,6 +10,7 @@
     background: rgb(207, 204, 255);
     min-width: 100%;
     max-width: 100vh;
+    padding-bottom: 100px;
 }
 
 #MainDiv #WhiteBox {
@@ -18,8 +19,9 @@
     min-width: 60%;
     max-width: 60%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    max-height: 700px;
     padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #MainDiv #WhiteBox #FirstRow {
@@ -52,11 +54,13 @@
     text-align: left;
     margin-left: 10%;
     font-size: 50px;
+    max-width: 40%;
     font-weight: bold;
 }
 
 #ContactUsBodyImage {
-    height: 300px;
+    width: 100%;
+    max-width: 100%;
 }
 
 
