@@ -17,7 +17,7 @@
     background-image: url('../Images/MainBackground2.webp');
     height: 100%;
     width: 100%;
-    min-height: 900px;
+    min-height: 100vh;
 }
 #contact-form #FormTitle {
     font-size: 50px;
